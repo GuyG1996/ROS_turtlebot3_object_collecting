@@ -3,13 +3,11 @@ Ball Collection Turtlebot
 Overview
 
 This ROS project enables the Turtlebot 3 Burger to navigate to a series of random placed red balls and place them on top of a random placed blue cube autonomously within a Gazebo simulated environment. The project is organized within the ass2 directory of the catkin_ws.
-How to Run the Project
+How to Run the Project:
 
-    Start Environment Open Terminal 1 and launch the Turtlebot 3 Burger in our custom world:
-        'roslaunch turtlebot3_gazebo turtlebot3_our_world.launch'
+    Start Environment Open Terminal 1 and launch the Turtlebot 3 Burger in our custom world: 'roslaunch turtlebot3_gazebo turtlebot3_our_world.launch'
 
-    Map the Environment In Terminal 2, initiate SLAM for mapping the environment:
-        'roslaunch turtlebot3_slam turtlebot3_slam.launch' This command also launches RViz.
+    Map the Environment In Terminal 2, initiate SLAM for mapping the environment: 'roslaunch turtlebot3_slam turtlebot3_slam.launch' This command also launches RViz.
 
 In Terminal 3, initialize the teleoperation node to drive the Turtlebot around for environment exploration: 'roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch' Explore the environment until satisfied.
 

@@ -2,8 +2,7 @@
 
 ## Overview
 
-This ROS project enables the Turtlebot 3 Burger to navigate to a series of randomly placed red balls and place them on top of a randomly placed blue cube autonomously within a Gazebo simulated environment. The project is organized within the `ass2` directory of the `catkin_ws`.
-
+This ROS project enables the Turtlebot 3 Burger to navigate to a series of randomly placed red balls and place them on top of a randomly placed blue cube autonomously within a Gazebo simulated environment. 
 ## How to Run the Project
 
 1. **Start Environment:**
